@@ -48,8 +48,25 @@ const Login: React.FC = () => {
   return (
     <div className="container">
       <div className="page-header">
-        <h1 className="page-title">Welcome to Achat</h1>
-        <p className="page-subtitle">Connect, Chat, and Share Moments</p>
+        <div className="app-logo" style={{ textAlign: 'center', marginBottom: '20px' }}>
+          <svg width="80" height="80" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ margin: '0 auto', display: 'block' }}>
+            <circle cx="32" cy="32" r="30" fill="url(#gradient)" stroke="#FFA500" strokeWidth="2"/>
+            <rect x="20" y="22" width="24" height="16" rx="8" fill="white" stroke="#FFA500" strokeWidth="1.5"/>
+            <circle cx="26" cy="30" r="2" fill="#FFA500"/>
+            <circle cx="32" cy="30" r="2" fill="#FFA500"/>
+            <circle cx="38" cy="30" r="2" fill="#FFA500"/>
+            <path d="M28 38 L32 42 L36 38" fill="white" stroke="#FFA500" strokeWidth="1.5"/>
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style={{stopColor:"#FFD700", stopOpacity:1}} />
+                <stop offset="50%" style={{stopColor:"#FFA500", stopOpacity:1}} />
+                <stop offset="100%" style={{stopColor:"#FF8C00", stopOpacity:1}} />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <h1 className="page-title">Welcome to Date Chat Pro</h1>
+        <p className="page-subtitle">Premium Dating & Live Chat Experience</p>
       </div>
 
       <div className="card" style={{ maxWidth: '400px', margin: '0 auto' }}>

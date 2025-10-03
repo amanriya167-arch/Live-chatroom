@@ -121,12 +121,12 @@ const Dashboard: React.FC = () => {
       
       <div className="container">
         <div className="page-header">
-          <h1 className="page-title">Welcome back, {user?.username}!</h1>
+          <h1 className="page-title">Welcome back to Date Chat Pro, {user?.username}!</h1>
           <p className="page-subtitle">
             {connected ? (
-              <span style={{ color: '#28a745' }}>🟢 Connected • {onlineUsers.length} users online</span>
+              <span style={{ color: '#28a745' }}>🟢 Connected • {onlineUsers.length} users online • Ready to meet new people!</span>
             ) : (
-              <span style={{ color: '#dc3545' }}>🔴 Connecting...</span>
+              <span style={{ color: '#dc3545' }}>🔴 Connecting to Date Chat Pro...</span>
             )}
           </p>
         </div>

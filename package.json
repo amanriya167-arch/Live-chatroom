@@ -1,7 +1,7 @@
 {
-  "name": "achat-live-app",
+  "name": "date-chat-pro",
   "version": "1.0.0",
-  "description": "A complete live chat and video calling application like Achat",
+  "description": "Date Chat Pro - Premium Dating & Live Chat Application with Video Calling",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
