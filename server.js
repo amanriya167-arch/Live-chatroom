@@ -23,7 +23,7 @@ const { authenticateToken } = require('./middleware/auth');
 const socketHandler = require('./socket/socketHandler');
 
 // Import database connection
-const connectDB = require('./config/database');
+const { connectDB } = require('./config/database');
 
 const app = express();
 const server = http.createServer(app);
